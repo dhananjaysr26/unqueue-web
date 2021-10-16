@@ -1,3 +1,7 @@
+:root {
+  --primary: #4ecdc4;
+  --white: #ffffff;
+}
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +12,7 @@
   justify-content: space-around;
   align-items: center;
   height: 75px;
-  background-color: aqua;
+  background-color:var(--primary);;
   color: white;
 }
 .logo {
@@ -50,7 +54,7 @@
     position: absolute;
     font-size: 42px;
     color: white;
-    background-color: aqua;
+    background-color: var(--primary);;
     border: none;
     outline: none;
     top: 15px;

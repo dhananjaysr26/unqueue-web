@@ -20,7 +20,7 @@ const Navbar = () => {
           <li>Create Qroom</li>
         </Link>
         <Link to="/login" className="nav_link login_link">
-          <li>Login</li>
+          <li>Partner Login</li>
         </Link>
         <Link to="/about" className="nav_link">
           <li>About Us</li>

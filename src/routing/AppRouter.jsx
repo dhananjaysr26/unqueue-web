@@ -13,6 +13,7 @@ import Profile from "../components/Profile";
 import About from "../components/About";
 import Navbar from "../components/Navbar";
 import PageNotFound from "../components/PageNotFound";
+import { Footer } from "../components/Footer";
 export default function AppRouter() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function AppRouter() {
           <Route exact path="/about" component={About} />
           <Route exact path="*" component={PageNotFound} />
         </Switch>
+        <Footer/>
       </Router>
     </>
   );

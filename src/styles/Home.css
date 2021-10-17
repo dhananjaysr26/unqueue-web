@@ -34,6 +34,9 @@
    background-image: url('../assets/1.png');
    background-size: 100% 100%;
    animation: slider 12s infinite ease;
+   box-shadow: rgb(0, 225, 255) 0px 20px 30px -10px;
+   margin-bottom: 30px;
+   border-radius: 100px;
  }
  @keyframes slider {
    0% {
@@ -64,6 +67,7 @@
    align-items: center;
    flex-wrap: wrap;
    background: rgb(255, 255, 255,0.5);
+   margin-top: 10px;
  }
  .steps_container .card{
    position: relative;

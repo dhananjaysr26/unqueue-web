@@ -29,7 +29,7 @@ export default function AppRouter() {
           <Route exact path="/about" component={About} />
           <Route exact path="*" component={PageNotFound} />
         </Switch>
-        <Footer/>
+        {/* <Footer/> */}
       </Router>
     </>
   );
